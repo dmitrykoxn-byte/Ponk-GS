@@ -61,10 +61,11 @@ function draw(){
  if(bx>700) vx=-Math.abs(vx);
 
  if(bx<0){
+   // Після промаху м'яч просто повертається, гра продовжується
    resetBall();
-   score=0;
  }
 
  requestAnimationFrame(draw);
 }
 draw();
+
