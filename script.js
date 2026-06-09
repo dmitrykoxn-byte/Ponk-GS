@@ -8,6 +8,7 @@ const paddleWidth = 10;
 const paddleHeight = 100;
 const paddleOffset = 10;
 
+function draf() { 
 context.fillStyle = "#3F826D";
 context.fillRect(
     width / 2 - paddleWidth / 2,
